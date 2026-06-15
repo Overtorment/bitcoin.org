@@ -14,7 +14,7 @@ platform:
     default: &DEFAULT-MOBILE
       text: "walletbluewallet"
       source: "https://github.com/BlueWallet/BlueWallet"
-      features: "bech32 hardware_wallet legacy_addresses multisig segwit"
+      features: "bech32 hardware_wallet legacy_addresses multisig segwit taproot"
       check: &DEFAULT-MOBILE-CHECK
         control: "checkgoodcontrolfull"
         validation: "checkpassvalidationspvservers"
@@ -43,7 +43,7 @@ platform:
         link: "https://bluewallet.app/desktop-bitcoin-wallet"
         source: "https://github.com/BlueWallet/BlueWallet"
         screenshot: "bluewalletmac.png"
-        features: "bech32 hardware_wallet legacy_addresses multisig segwit"
+        features: "bech32 hardware_wallet legacy_addresses multisig segwit taproot"
         check:
           control: "checkgoodcontrolfull"
           validation: "checkpassvalidationspvservers"
